@@ -231,6 +231,20 @@ Options:
 
 ---
 
+# Push Images to Dockerhub
+
+Create a new repo in te hub `nextjs_app`
+
+```bash
+docker tag day2_nextjs_app_docker_image_push:latest prakashtm456/nextjs_app:day2_nextjs_app_docker_image_push
+```
+
+```bash
+docker docker push prakashtm456/nextjs_app:day2_nextjs_app_docker_image_push
+```
+
+---
+
 # Step 10: View Running Containers
 
 ```bash
