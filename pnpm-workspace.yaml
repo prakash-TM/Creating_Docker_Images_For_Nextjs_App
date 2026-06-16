@@ -5,4 +5,6 @@ settings:
   onlyBuiltDependencies:
     - sharp
     - unrs-resolver
+
+policies:
   minimumReleaseAge: 0
